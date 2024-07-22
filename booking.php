@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAR BOOKING</title>
+    <title>VEHICLE BOOKING</title>
     <!-- <link  rel="stylesheet" href=""> -->
     <script type="text/javascript">
         function preventBack() {
@@ -19,11 +19,12 @@
 
 
 </head>
-<body  background=images/book.jpg>
+<body  background=images\book.jpg>
 <style>
 *{
     margin: 0;
     padding: 0;
+
 
 }
 
@@ -291,7 +292,7 @@ ul li a:hover{
        <div class="hai">
             <div class="navbar">
                 <div class="icon">
-                    <h2 class="logo">CaRs</h2>
+                    <h2 class="logo">Apna_Gadi</h2>
                 </div>
                 <div class="menu" >
                     <ul>
@@ -315,7 +316,7 @@ ul li a:hover{
         <div class="register">
             <h2>BOOKING</h2>
         <form id="register" method="POST"  >
-            <h2>CAR NAME : <?php echo "".$email['CAR_NAME']?></h2>
+            <h2>VEHICLE NAME : <?php echo "".$email['CAR_NAME']?></h2>
             <label>BOOKING PLACE : </label>
             <br>
             <input type="text" name="place"

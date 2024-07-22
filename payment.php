@@ -37,7 +37,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background:orange url("images/paym.jpg") center/cover;
+  background:orange url("C:\xampp\htdocs\car_rental\car_rental_project\images\paym.jpg") center/cover;
   overflow: hidden;
 }
 

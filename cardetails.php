@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Details</title>
+    <title>Vehicle Details</title>
     
 </head>
 
@@ -243,13 +243,12 @@ ul li a:hover{
     <div class="main">
         <div class="navbar">
             <div class="icon">
-                <h2 class="logo">CaRs</h2>
+                <h2 class="logo">Apna_Gadi</h2>
             </div>
             <div class="menu">
                
                 <ul>
                     <li><a href="#">HOME</a></li>
-                    <li><a href="aboutus2.html">ABOUT</a></li>
                     
                     <li><a href="contactus2.html">CONTACT</a></li>
                     <li><a href="feedback/Feedbacks.php">FEEDBACK</a></li>
@@ -262,7 +261,7 @@ ul li a:hover{
             
             
         </div>
-      <div><h1 class="overview">OUR CARS OVERVIEW</h1>
+      <div><h1 class="overview">OUR VEHICLES OVERVIEW</h1>
 
     <ul class="de">
     <?php

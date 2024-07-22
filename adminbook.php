@@ -16,7 +16,7 @@
 }
 .hai{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0)50%, rgba(0,0,0,0)50%),url("../images/carbg2.jpg");
+    background: linear-gradient(to top, rgba(0,0,0,0)50%, rgba(0,0,0,0)50%),url("");
     background-position: center;
     background-size: cover;
     height: 109vh;
@@ -171,7 +171,7 @@ $num=mysqli_num_rows($queryy);
 <div class="hai">
         <div class="navbar">
             <div class="icon">
-                <h2 class="logo">CaRs</h2>
+                <h2 class="logo">Apna_Gadi</h2>
             </div>
             <div class="menu">
                 <ul>
@@ -193,7 +193,7 @@ $num=mysqli_num_rows($queryy);
                     <table class="content-table">
                 <thead>
                     <tr>
-                        <th>CAR ID</th>
+                        <th>VEHICLE ID</th>
                         <th>EMAIL</th>
                         <th>BOOK PLACE</th>
                         <th>BOOK DATE</th>
@@ -203,7 +203,7 @@ $num=mysqli_num_rows($queryy);
                         <th>RETURN DATE</th>
                         <th>BOOKING STATUS</th>
                         <th>APPROVE</th>
-                        <th>CAR RETURNED</th>
+                        <th>VEHICLE RETURNED</th>
                     </tr>
                 </thead>
                 <tbody>

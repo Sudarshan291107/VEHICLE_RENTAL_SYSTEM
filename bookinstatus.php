@@ -137,7 +137,7 @@ ul li{
 </ul>
     <div class="box">
          <div class="content">
-             <h1>CAR NAME : <?php echo $rows3['CAR_NAME']?></h1><br>
+             <h1>VEHICLE NAME : <?php echo $rows3['CAR_NAME']?></h1><br>
              <h1>NO OF DAYS : <?php echo $rows['DURATION']?></h1><br>
              <h1>BOOKING STATUS : <?php echo $rows['BOOK_STATUS']?></h1><br>
              

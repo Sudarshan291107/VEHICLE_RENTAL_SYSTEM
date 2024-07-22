@@ -142,12 +142,12 @@ input#name{
  <div class="main">
         
         <div class="register">
-        <h2>Enter Details Of New Car</h2>
+        <h2>Enter Details Of New Vehicle</h2>
         <form id="register"  action="upload.php" method="POST" enctype="multipart/form-data">    
-            <label>Car Name : </label>
+            <label>Vehicle Name : </label>
             <br>
             <input type ="text" name="carname"
-            id="name" placeholder="Enter Car Name" required>
+            id="name" placeholder="Enter Vehicle Name" required>
             <br><br>
 
             <label>Fuel Type : </label>
@@ -159,21 +159,21 @@ input#name{
             <label>Capacity : </label>
             <br>
             <input type="number" name="capacity" min="1"
-            id="name" placeholder="Enter Capacity Of Car" required>
+            id="name" placeholder="Enter Capacity Of the Vehicle" required>
             <br><br>
             
             <label>Price : </label>
             <br>
             <input type="number" name="price" min="1"
-            id="name" placeholder="Enter Price Of Car for One Day(in rupees)" required>
+            id="name" placeholder="Enter Price Of Vehicle for One Day(in rupees)" required>
             <br><br>
 
-            <label>Car Image : </label>
+            <label>Vehicle Image : </label>
             <br>
             <input type="file" name="image" required>
            <br><br>
 
-            <input type="submit" class="btnn"  value="ADD CAR" name="addcar">
+            <input type="submit" class="btnn"  value="ADD Vehicle" name="addcar">
             
         
         

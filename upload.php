@@ -26,7 +26,7 @@ if(isset($_POST['addcar']) ){
                 $query="INSERT INTO cars(CAR_NAME,FUEL_TYPE,CAPACITY,PRICE,CAR_IMG,AVAILABLE) values('$carname','$ftype',$capacity,$price,'$new_img_name','$available')";
                 $res=mysqli_query($con,$query);
                 if($res){
-                    echo '<script>alert("New Car Added Successfully!!")</script>';
+                    echo '<script>alert("New Vehicle Added Successfully!!")</script>';
                     echo '<script> window.location.href = "adminvehicle.php";</script>';                }
 
         }else{

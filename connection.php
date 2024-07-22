@@ -1,15 +1,14 @@
-<?php 
-    mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-    $con = mysqli_connect('localhost','root','','carproject');
-    if(!$con)
-    {
-        echo 'please check your Database connection';
-    }
+<?php
+$host = "localhost";
+$username = "root";
+$password = "";
+$database = "carproject";
 
+$con = new mysqli($host, $username, $password, $database);
 
-
-
-
-
-
+if ($con->connect_error) {
+    die("Connection failed: " . $con->connect_error);
+} else {
+    echo "";
+}
 ?>
