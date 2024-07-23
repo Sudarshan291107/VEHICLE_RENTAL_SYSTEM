@@ -8,7 +8,7 @@
             window.history.forward();
         }
     </script>
-    <link  rel="stylesheet" href="css/style.css">
+    <link  rel="stylesheet" href="css\style.css">
     <script type="text/javascript">
         function preventBack() {
             window.history.forward(); 
@@ -49,7 +49,7 @@ if(isset($_POST['login']))
     }
 }
 ?>
-    <div class="hai">
+    <div class="hai" style="background-color:red">
         <div class="navbar">
             <div class="icon">
                 <h2 class="logo">Apna_Gadi</h2>
@@ -62,7 +62,7 @@ if(isset($_POST['login']))
                 </ul>
             </div>
         </div>
-        <div class="content">
+        <div class="content" >
             <h1>Rent Your <br><span>Vehicle  Now</span></h1>
             <p class="par">Live the life in Punctuality.<br>
                 Just rent a Vehicle of your wish from our collection.<br>Enjoy every moment of your journey<br>

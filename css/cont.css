@@ -18,10 +18,6 @@
     flex-direction: column;
     /* background: url("../images/contact.jpg"); */
     background-size: cover;
-    
-    
-
-
 }
 
 .contact .content{
@@ -30,7 +26,6 @@
     margin-top: 0px;
 
 }
-
 .contact .content h1{
     font-size: 36px;
     font-weight: 900;
