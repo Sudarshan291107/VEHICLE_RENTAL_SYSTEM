@@ -1,7 +1,7 @@
 const cleaveCC = new Cleave("#cardNumber", {
     creditCard: true,
     delimiter: "-",
-    onCreditCardTypeChanged: function (type) {
+    onCreditCardTypeChanged: function (type) { 
       const cardBrand = document.getElementById("cardBrand"),
         visa = "fab fa-cc-visa",
         mastercard = "fab fa-cc-mastercard",
