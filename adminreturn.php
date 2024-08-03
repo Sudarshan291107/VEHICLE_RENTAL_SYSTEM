@@ -1,5 +1,4 @@
 <?php
-
 require_once('connection.php');
 $carid=$_GET['id'];
 $book_id=$_GET['bookid'];
