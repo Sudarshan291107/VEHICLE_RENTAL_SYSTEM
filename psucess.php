@@ -3,7 +3,7 @@
     
   </head>
             <style>
-            body {
+            body { 
                 text-align: center;
                 /* padding: 40px 0; */
                 background-image: url("images/ps.png");
