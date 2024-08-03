@@ -1,5 +1,4 @@
 <?php
-
 require_once('connection.php');
 $bookid=$_GET['id'];
 $sql="SELECT *from booking where BOOK_Id=$bookid";
