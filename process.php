@@ -2,7 +2,7 @@
 
 // require_once('connection.php');
 // if(isset($_POST['regs']))
-// {
+// { 
 //     $fname=mysqli_real_escape_string($con,$_POST['fname']);
 //     $lname=mysqli_real_escape_string($con,$_POST['lname']);
 //     $email=mysqli_real_escape_string($con,$_POST['email']);
