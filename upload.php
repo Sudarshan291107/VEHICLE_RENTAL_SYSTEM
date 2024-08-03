@@ -3,7 +3,7 @@ if(isset($_POST['addcar']) ){
     require_once('connection.php'); 
    echo "<prev>"; 
    print_r($_FILES['image']); 
-   echo "</prev>"; 
+   echo "</prev>";  
    $img_name= $_FILES['image']['name']; 
    $tmp_name= $_FILES['image']['tmp_name']; 
    $error= $_FILES['image']['error']; 
